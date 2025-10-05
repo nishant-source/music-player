@@ -87,16 +87,9 @@ music-player/
 
 ---
 
-## Live Demo
+## Live Demo:
 
-If hosted via GitHub Pages, you can access the player here:  
-[Your GitHub Pages Link]
-
----
-
-## Screenshots
-
-_(Optional: include screenshots here to show UI on desktop and mobile)_
+https://music-playing-web.netlify.app/
 
 ---
 
@@ -110,8 +103,8 @@ _(Optional: include screenshots here to show UI on desktop and mobile)_
 
 ## Author
 
-- [Your Name]
-- Email: [Your Email]
+- Nishant
+- Email: nishant.fullstac@gmail.com
 
 ---
 
