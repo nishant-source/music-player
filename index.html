@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <meta name="theme-color" content="#1a1a2e" />
+    <title>Music Stream - Everywhere</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="icons/icon-192.png"
+    />
+    <link rel="apple-touch-icon" href="icons/icon-192.png" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="app">
+      <header class="header">
+        <div style="display: flex; align-items: center; gap: 1rem">
+          <button
+            id="homeBtn"
+            style="
+              background: var(--primary);
+              border: none;
+              color: white;
+              width: 40px;
+              height: 40px;
+              border-radius: 50%;
+              cursor: pointer;
+              font-size: 1.2rem;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+            "
+          >
+            🏠
+          </button>
+          <div class="search-container" style="flex: 1">
+            <svg
+              class="search-icon"
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+            >
+              <circle cx="11" cy="11" r="8"></circle>
+              <path d="m21 21-4.35-4.35"></path>
+            </svg>
+            <input
+              type="text"
+              class="search-input"
+              id="searchInput"
+              placeholder="Search songs, artists, albums..."
+            />
+          </div>
+        </div>
+      </header>
+
+      <nav class="nav-buttons">
+        <button class="nav-btn" id="favoritesBtn">❤️ Favorites</button>
+        <button class="nav-btn" id="playlistBtn">📋 Playlists</button>
+        <button class="nav-btn" id="recentsBtn">🕒 Recent</button>
+      </nav>
+      <div class="two-things-wrap">
+        <div class="songs-container" id="songsContainer">
+          <div class="loading">Loading songs...</div>
+        </div>
+        <div class="volume-control">
+          <input
+            type="range"
+            id="volume-slider"
+            min="0"
+            max="1"
+            step="0.01"
+            value="1"
+          />
+          <button id="btn-mute">🔊</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="player" id="player">
+      <div class="player-content">
+        <div class="player-artwork"></div>
+        <div class="player-info">
+          <div class="player-title">No song playing</div>
+          <div class="player-artist">Select a song</div>
+        </div>
+        <div class="player-controls">
+          <button class="control-btn" id="prevBtn">⏮</button>
+          <button class="control-btn play-pause" id="playBtn">▶</button>
+          <button class="control-btn" id="nextBtn">⏭</button>
+        </div>
+      </div>
+      <div class="progress-wrapper">
+        <span class="progress-time" id="currentTimeDisplay">0:00</span>
+        <div class="progress-container" id="progressContainer">
+          <div class="progress-bar-fill" id="progressBarFill">
+            <div class="progress-thumb"></div>
+          </div>
+        </div>
+        <span class="progress-time" id="durationDisplay">0:00</span>
+      </div>
+    </div>
+
+    <div class="toast" id="toast"></div>
+    <audio id="audio"></audio>
+
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
