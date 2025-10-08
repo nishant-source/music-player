@@ -17,7 +17,7 @@ body {
 .header {
   position: sticky;
   top: 0;
-  z-index: 100;
+  z-index: 101;
   background: rgba(26, 26, 46, 0.95);
   backdrop-filter: blur(10px);
   padding: 1rem;
