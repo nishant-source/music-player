@@ -88,14 +88,6 @@ music-player/
 ---
 
 ## Live Demo:
-<<<<<<< HEAD
-
-=======
-<<<<<<< HEAD
-=======
-
->>>>>>> 873d8d6 (Update functionality and add comments)
->>>>>>> ac05750 (update code)
 https://music-playing-web.netlify.app/
 
 ---
