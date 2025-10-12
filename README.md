@@ -102,7 +102,7 @@ https://music-playing-web.netlify.app/
 
 ## Author
 
-- Nishant
+- Name: Nishant
 - Email: nishant.fullstac@gmail.com
 
 ---
