@@ -82,7 +82,7 @@ music-player/
 ├─ style.css # Styles for the player
 ├─ script.js # JavaScript functionality
 ├─ songs/ # Folder containing all mp3 songs
-├─ icons/ # Player and favicon icons
+├─ icons/ # Player and fav icons
 └─ README.md 
 ---
 
