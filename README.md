@@ -7,7 +7,7 @@ This is a simple web-based music player built using **HTML, CSS, and JavaScript*
 ---
 
 ## Project Difficulty
-sd
+
 **Level:** Hard  
 This project involves implementing audio playback, dynamic playlist management, and interactive UI elements, making it a good hands-on exercise for practicing JavaScript DOM manipulation and HTML5 audio controls.
 
