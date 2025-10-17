@@ -17,7 +17,7 @@ This project involves implementing audio playback, dynamic playlist management, 
 
 - **HTML** – for structuring the player and layout
 - **CSS** – for styling, responsive design, and visual enhancements
-- **JavaScript (Vanilla)** – for functionality like play/pause, volume control, playlist management, and search
+- **JavaScript** – for functionality like play/pause, volume control, playlist management, and search
 
 ---
 
