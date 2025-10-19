@@ -79,7 +79,7 @@ The music player includes the following features:
 music-player/
 │
 ├─ index.html # Main HTML file
-├─ style.css # Styles for the player
+├─ style.css # Stylesheet for the player
 ├─ script.js # JavaScript functionality
 ├─ songs/ # Folder containing all mp3 songs
 ├─ icons/ # Player and fav icons
