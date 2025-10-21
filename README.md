@@ -83,7 +83,7 @@ music-player/
 ├─ script.js # JavaScript functionality
 ├─ songs/ # Folder containing all mp3 songs
 ├─ icons/ # Player and fav icons
-└─ README.md 
+└─ README.md #this file
 ---
 
 ## Live Demo:
