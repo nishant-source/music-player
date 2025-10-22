@@ -103,6 +103,7 @@ https://music-playing-web.netlify.app/
 
 - Name: Nishant
 - Email: nishant.fullstac@gmail.com
+- LinkedIn: https://www.linkedin.com/in/nishant-shaan-dish/
 
 ---
 
