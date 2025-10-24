@@ -1,6 +1,6 @@
 # Music Stream - Everywhere
 
-## Project Overview
+## Project Overvie
 
 This is a simple web-based music player built using **HTML, CSS, and JavaScript**. The main goal of this project is to provide a clean, easy-to-use, and interactive music player that allows users to play songs, manage playlists, and enjoy a smooth audio experience right in the browser.
 
